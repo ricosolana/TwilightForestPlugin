@@ -1,0 +1,70 @@
+name: TwilightForestPlugin
+main: com.crazicrafter1.tfplugin.Main
+version: 1.0
+author: crazicrafter1
+description: Plugin recreation of the Twilight Forest mod.
+api-version: 1.13
+commands:
+  toggledim:
+    description: toggle between twilight forest/overworld
+    usage: /<command>
+  tfitem:
+    description: get a tfitem
+    usage: /<command> <tfitem>
+#  scsave:
+#    description: save schematic of a location
+#    usage: /<command> x1 y1 z1 x2 y2 z2 <name>
+#  scload:
+#    description: load schematic to a location
+#    usage: /<command> x y z <name>
+#  sclist:
+#    description: list all loaded schematics
+#    usage: /<command>
+#  clearboss:
+#    description: clear bosses
+#    usage: /<command>
+  scpaste:
+    description: paste a schematic
+    usage: /<command> <schematic> <x> <y> <z>
+  mapdata:
+    description: get data of held map
+    usage: /<command>
+  tflocate:
+    description: get coordinates of bosses (not structures yet)
+    usage: /<command> <boss>
+  progress:
+    description: get incProgress
+    usage: /<command>
+  spawnboss:
+    description: summon a tfboss (wip)
+    usage: /<command> <boss>
+  tfbosslist:
+    description: get all boss types currently generated
+    usage: /<command>
+  advance:
+    description: advance your progress
+    usage: /<command>
+  unadvance:
+    description: unadvance your progress
+    usage: /<command>
+  scexport:
+    description: "export schematic as a usable Java Schematic object"
+    usage: /<command> <schematic> <export name>
+  scsave:
+    description: "save schematic"
+    usage: /<command> x y z x1 y1 z1 name
+  nagastructure:
+    description: naga courtyard
+    usage: /<command>
+  getblock:
+    description: get date of block underneath you
+    usage: /<command>
+  lichstructure:
+    description: lich tower
+    usage: /<command>
+  testqueue:
+    description: just sets block using Queue
+    usage: /<command>
+  tftest:
+    description: test a temporary tf thing
+    usage: /<command>

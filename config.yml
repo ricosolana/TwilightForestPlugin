@@ -1,0 +1,49 @@
+# hello there
+# minimal features
+
+#----------------------------
+#
+#       CONFIGURATION
+#
+#----------------------------
+
+# Optional seed to use for twilight_forest
+#seed: 1234567891234
+
+# Optional Magic Map size override. 2048 by default
+#magic-map-size: 2048
+
+# Optional map update speed. 1 by default (in cycles per second)
+# Greater numbers are a faster map, but might lagg more
+# n ∈ (0, 4]
+#map-cycle: 1
+
+# Portal activation item
+portal-item: diamond
+
+# Lightning on portal activate?
+epic-gamer: true
+
+
+# Progression settings
+progression:
+  # Enable progression system?
+  enabled: true
+
+  # Show cool particles when not ready to venture into area?
+  #particles: true
+
+  # Prevent block breaking/interactions/mob damaging when not ready for area?
+  prevent-griefing: true
+
+  # Effect / damage the player accordingly when not ready for area?
+  #anti-venture-affliction: true
+
+
+# Because a non-modded server doesn't like to have its crafting system to be messed with,
+# I've made a custom crafting solution which is epic
+
+# Now, in order to use this functionality, a certain block must be the "Twilight Crafting" bench
+# Choose that bench! (can be any block, just don't choose water or lava)
+crafting-block: crafting_table
+
